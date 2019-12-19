@@ -2,17 +2,22 @@ import React from 'react';
 import {makeStyles} from '@material-ui/core/styles';
 import Post from '../components/post'
 import Header from '../components/header';
+import HackathonList from '../components/hackathonList';
 
-const useStyles = makeStyles({});
+const useStyles = makeStyles({
+    container: {
+        background: '#1C1C1C',
+        color: '#6F6F6F'
+    }
+});
 
 function Page1(){
     const classes = useStyles();
 
     return (
-        <div>
+        <div className={classes.container}>
             <Header/>
-            <h1>OK PAGE 1</h1>
-            <Post/>
+            <HackathonList/>
         </div>
     )
 }
