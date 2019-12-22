@@ -40,7 +40,7 @@ export default function Header (){
                 <Button color="primary" style={{color: 'white'}} onClick={() => window.open('https://github.com/saulojoab/AchaHacka')}>
                     <GitHubIcon color="white"/>       
                 </Button>
-                <Button style={{color: 'white'}} style={{color: 'white'}}>
+                <Button style={{color: 'white'}}>
                     <Brightness2Icon/>
                 </Button>
             </Grid>

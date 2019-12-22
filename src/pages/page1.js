@@ -1,6 +1,5 @@
 import React from 'react';
 import {makeStyles} from '@material-ui/core/styles';
-import Post from '../components/post'
 import Header from '../components/header';
 import HackathonList from '../components/hackathonList';
 

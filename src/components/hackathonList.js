@@ -35,7 +35,7 @@ export default function HackathonList(){
                     title={"Hackathon Title"} 
                     city="Crato" 
                     state="Ceará" 
-                    description="O hackathon mais daora da cidade, muito fodaaa..."
+                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras imperdiet nulla a justo viverra dictum. Ut ut pellentesque ante, vitae placerat urna. Cras fermentum magna vel efficitur vestibulum. Sed pellentesque pretium dui, ut finibus arcu faucibus id. Quisque a nunc turpis. Aenean malesuada rutrum arcu at rutrum. In aliquet pellentesque luctus. Praesent sed felis a dolor cursus cursus eu a sem."
                 />
                 <Post 
                     title={"Hackathon Title"} 

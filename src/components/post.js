@@ -16,18 +16,18 @@ export default function Post(props){
 	const classes = useStyles();
 
 	return(
-		<Grid item xs={12} sm={6} md={3}>
+		<Grid item xs={12} sm={6} lg={3}>
 			<Card className={classes.card}>
 				<CardContent>
-					<Typography variant="h4">
+					<Typography variant="h5">
 						{props.title}
 					</Typography>
-					<Typography variant='h6' style={{display: 'flex', alignItems: 'center', fontWeight: 'lighter'}}>
+					<Typography variant='h7' style={{display: 'flex', alignItems: 'center', fontWeight: 'lighter'}}>
 						<RoomIcon/> {props.city} - {props.state}
 					</Typography>
 					<br/>
-					<Typography variant='body1' style={{color: 'white'}}>
-						{props.description}
+					<Typography variant='body1' style={{color: 'white', textAlign: 'justify'}}>
+						{props.description.slice(0,90) + '...'}
 					</Typography>
 					<br/>
 					<Button color="inherit" variant="outlined" style={{width: '100%', color: 'grey'}}>
