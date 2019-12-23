@@ -26,7 +26,7 @@ export default function Navbar() {
                   <AppBar position="static" color="primary" className={classes.appbar}>
                         <Toolbar variant="dense">
                               <Typography variant="h6" gutterBottom className={classes.title}>
-                                    AchaHacka
+                                    LOGO
                               </Typography>
                               <IconButton style={{ color: 'white' }} onClick={() => window.open('https://github.com/saulojoab/AchaHacka')}>
                                     <GitHubIcon color="white" />
